@@ -1,7 +1,7 @@
 {
   "name": "middleware-composer",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "compose-middlewares.js",
   "engines": {
     "node": ">=12"
   },
