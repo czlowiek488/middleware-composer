@@ -1,6 +1,6 @@
 {
   "name": "middleware-composer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "compose-middlewares.js",
   "private": false,
   "description": "A function to compose middlewares with great typescript support",
@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/czlowiek488/middleware-composer#readme",
   "author": "Łukasz Klejszta",
-  "license": "UNLICENSED",
+  "license": "MIT License",
   "keywords": [
     "middleware",
     "typescript",

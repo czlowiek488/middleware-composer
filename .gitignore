@@ -9,5 +9,6 @@ coverage
 **/.dist/*
 !**/.dist/package.json
 !**/.dist/readme.md
+!**/.dist/license.md
 !**/.dist/package-lock.json
 
