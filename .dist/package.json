@@ -1,0 +1,13 @@
+{
+  "name": "middleware-composer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "author": "Łukasz Klejszta",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ts-pipe-compose": "^0.2.1"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "no-any": true,
+  "exclude": [".dist",".dev", "*.js"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "target": "es2015",
+    "module": "commonjs",
+    "outDir": ".dev",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": ["es2015", "es2020.string", "ES2020.Promise"],
+    "typeRoots": ["./node_modules/@types"],
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "ts-node": {
+    "files": true
+  }
+}

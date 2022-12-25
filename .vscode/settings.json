@@ -1,0 +1,37 @@
+{
+  "jest.autoRun": {
+    "pathToJest": "node_modules/.bin/jest",
+    "pathToConfig": "jest.config.json"
+	},
+	"prettier.configPath": ".prettierrc",
+  "jest.jestCommandLine": "\"./node_modules/.bin/jest\" --runInBand",
+  "eslint.options": {
+    "overrideConfigFile": "./eslint.json"
+  },
+  "explorer.excludeGitIgnore": false,
+  "typescript.format.enable": false,
+  "cSpell.words": [
+    "backoff",
+    "depcruise"
+  ],
+  "files.exclude": {
+    "**/.dynamodb": false,
+    "**/.step-functions-local": false,
+    "**/.vscode": false,
+    "**/.webpack": false,
+    "**/coverage": false,
+    "**/node_modules": false,
+    "**/.husky": false,
+    "**/.gitignore": false,
+    "**/.prettierrc": false,
+    "**/.travis.yml": false,
+    "**/commitlint.config.js": false,
+    "**/eslint.json": false,
+    "**/package-lock.json": false,
+    "**/tsconfig.json": false,
+    "**/webpack.config.js": false,
+    "**/.editorconfig": false,
+    "**/jest.config.json": false
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

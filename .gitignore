@@ -1,0 +1,12 @@
+dynamodb-data
+node_modules
+coverage
+.serverless
+.step-functions-local
+.env
+.dev
+.dynamodb
+**/.dist/*
+!**/.dist/package.json
+!**/.dist/package-lock.json
+
