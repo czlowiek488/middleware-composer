@@ -1,12 +1,30 @@
 {
   "name": "middleware-composer",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "compose-middlewares.js",
+  "private": false,
+  "description": "A function to compose middlewares with great typescript support",
   "engines": {
     "node": ">=12"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czlowiek488/middleware-composer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/czlowiek488/middleware-composer/issues"
+  },
+  "homepage": "https://github.com/czlowiek488/middleware-composer#readme",
   "author": "Łukasz Klejszta",
   "license": "UNLICENSED",
+  "keywords": [
+    "middleware",
+    "typescript",
+    "compose",
+    "lambda",
+    "composition",
+    "composeMiddlewares"
+  ],
   "dependencies": {
     "ts-pipe-compose": "^0.2.1"
   }

@@ -1,9 +1,8 @@
 {
   "name": "middleware-composer",
   "version": "1.0.0",
-  "description": "",
+  "description": "A function to compose middlewares with great typescript support",
   "private": true,
-  "main": "index.js",
   "engines": {
     "npm": "8.19.3",
     "node": ">=12"
@@ -17,6 +16,14 @@
     "test-types": "./node_modules/.bin/tsc --project ./tsconfig.json",
     "prepare": "husky install"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czlowiek488/middleware-composer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/czlowiek488/middleware-composer/issues"
+  },
+  "homepage": "https://github.com/czlowiek488/middleware-composer#readme",
   "author": "Łukasz Klejszta",
   "devDependencies": {
     "@commitlint/cli": "16.2.1",

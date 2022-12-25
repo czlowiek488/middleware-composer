@@ -8,5 +8,6 @@ coverage
 .dynamodb
 **/.dist/*
 !**/.dist/package.json
+!**/.dist/readme.md
 !**/.dist/package-lock.json
 
